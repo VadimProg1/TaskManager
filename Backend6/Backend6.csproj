@@ -1,0 +1,51 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <UserSecretsId>aspnet-Backend6-4fd1b34e-3551-4869-9119-f7b6184396dc</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20170610185853_AddPostCategories.cs" />
+    <Compile Remove="Data\Migrations\20170610185853_AddPostCategories.Designer.cs" />
+    <Compile Remove="Data\Migrations\20170610191759_AddPosts.cs" />
+    <Compile Remove="Data\Migrations\20170610191759_AddPosts.Designer.cs" />
+    <Compile Remove="Data\Migrations\20170610192257_AddPostAttachments.cs" />
+    <Compile Remove="Data\Migrations\20170610192257_AddPostAttachments.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210410090509_AddForumCategories.cs" />
+    <Compile Remove="Data\Migrations\20210410090509_AddForumCategories.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210410095213_AddForumCategories.cs" />
+    <Compile Remove="Data\Migrations\20210410095213_AddForumCategories.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210410100248_AddForum.cs" />
+    <Compile Remove="Data\Migrations\20210410100248_AddForum.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210410100905_AddForums.cs" />
+    <Compile Remove="Data\Migrations\20210410100905_AddForums.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210410101001_AddForumTopics.cs" />
+    <Compile Remove="Data\Migrations\20210410101001_AddForumTopics.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210410101302_AddForumMessages.cs" />
+    <Compile Remove="Data\Migrations\20210410101302_AddForumMessages.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210410101820_AddForumMessages.cs" />
+    <Compile Remove="Data\Migrations\20210410101820_AddForumMessages.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210410102200_AddForumMessageAttachments.cs" />
+    <Compile Remove="Data\Migrations\20210410102200_AddForumMessageAttachments.Designer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.6" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.4" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.3" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.3" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="2.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.0.3" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.4" PrivateAssets="All" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.1" />
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\ViewModels\" />
+  </ItemGroup>
+
+</Project>
